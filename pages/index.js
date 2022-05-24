@@ -24,13 +24,18 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={utilStyles.headingMd}>
         <p>
-          I'm a Frontend Developer. You can contact me on
-          <a href="https://twitter.com/thisKehinde" target="_blank">
+          I&apos;m a Frontend Developer. You can contact me on
+          <a
+            href="https://twitter.com/thisKehinde"
+            target="_blank"
+            rel="noreferrer"
+          >
             Twitter
           </a>
         </p>
         <p>
-          (This is a sample website - you’ll be building a site like this on
+          (This is a sample website - you&apos;ll be building a site like this
+          on
           <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
         </p>
       </section>
